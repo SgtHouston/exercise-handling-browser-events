@@ -1,0 +1,31 @@
+<!-- Form with Required Field
+Create a simple HTML form with a single field called "Name" and 
+make it required. Test in multiple browsers what happens when you 
+click "Submit" without filling out the required field. Every 
+browser is a little different. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Required Field</title>
+</head>
+<body>
+    <form id=requiredform>
+        <fieldset>
+        <legend>Name Input</legend>
+        <p>
+            <label for="nameinput">Name </label><input type="text" name="name" id="nameinput" required>
+        </p>
+        <p>
+            <input type="submit" id="submit-button" value="Submit"/>
+        </p>
+        </fieldset>
+    </form>
+
+
+</body>
+</html>

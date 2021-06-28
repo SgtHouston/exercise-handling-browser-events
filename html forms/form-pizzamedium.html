@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+</head>
+<body>
+    <form id="">
+        <fieldset>
+            <legend>Customize Your Pizza</legend>
+            <p>
+                <legend>Select Your Crust</legend>
+                <label for="crust-selector"></label>
+                <select name="crust-selector" id="crust-selector">
+                    <option value='no crust selection' disabled selected>Pick A Crust</option>
+                    <option value=thin-style-crust>Thin</option>
+                    <option value=brooklyn-style-crust>Brooklyn</option>
+                    <option value=deepdish-style-crust>Deep Dish</option>
+                    <option value=stuffedcrust-style-crust>Stuffed Crust</option>
+                </select>
+            </p>
+            <p>
+                <legend>Select Your Toppings (Choose One or More)</legend>
+                <p>
+                    <label> <input type="checkbox"/> Pepperoni</label>
+                </p>
+                <p>
+                    <label> <input type="checkbox"/> Sausage</label>
+                </p>
+                <p>
+                    <label> <input type="checkbox"/> Extra Cheese</label>
+                </p>
+                <p>
+                    <label> <input type="checkbox"/> Anchovies</label>
+                </p>
+                <p>
+                    <label> <input type="checkbox"/> Pineapple</label>
+                </p>
+                <p>
+                    <label> <input type="checkbox"/> Bacon</label>
+                </p>
+                <p>
+                    <label> <input type="checkbox"/> Mushrooms</label>
+                </p>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Order Information</legend>
+            <p>
+                <label for="day-selector"> Delivery or Carryout?</label>
+                <select name="deliverypreference" id="deliverypreference">
+                <option value='no selection' disabled selected> Make A Selection</option>
+                <option value=delivery>Delivery</option>
+                <option value=carryout>Carryout</option>
+            </p>
+            <p>
+                
+                <label for="city">City: </label><input type="text" id="address" name="city-address" />
+                <br>
+                <label for="zip">Zip: </label><input type="text" id="address" name="zip-address" />
+            </p>
+            
+            <p>
+                <label for="lastname"> Name For Pickup </label>
+                <input type="text" id="lastname">
+            </p>    
+        </fieldset>
+            <input type="submit" id="submit-button" value="Submit"/>    
+    </form>
+
+
+    <script src='form2.js'>
+
+    </script>
+</body>
+</html>
